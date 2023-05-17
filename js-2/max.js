@@ -4,11 +4,11 @@ function max(array){
     let maximo = 0;
 
     if(array.length === 0){
-        return undefined;
+        maximo = undefined;
     }else{
         for(let i = 0; i < array.length; i++){
             if(array[i]>maximo){
-                maximo = array[i]
+                maximo = array[i];
             }
         }
     }

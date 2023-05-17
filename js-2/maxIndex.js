@@ -6,14 +6,13 @@ function maxIndex(array){
 
     if(array.length == 0){
         return -1;
-    }else{
+    }
         for(let i = 0; i < array.length; i++){
             if(array[i]>maximo){
                 maximo = array[i];
                indice = i;              
             }
         }
-    }
     return indice;
 }
 
